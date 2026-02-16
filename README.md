@@ -9,6 +9,10 @@ To use this tool, simply import the `.psm1` module and then run the `Get-Process
 Import-Module Get-ProcessTree.psm1
 ```
 
+``` powershell title:"Show help dialogue"
+Get-ProcessTree -Help
+```
+
 ``` PowerShell title:"Show process tree from live Sysmon logs"
 Get-ProcessTree -LogName Sysmon
 ```
